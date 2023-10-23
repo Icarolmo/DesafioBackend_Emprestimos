@@ -5,7 +5,9 @@ import backend.brasil.desafios.loans.model.ResponseLoan;
 import backend.brasil.desafios.loans.service.businessrule.ConsignmentService;
 import backend.brasil.desafios.loans.service.businessrule.GuaranteedService;
 import backend.brasil.desafios.loans.service.businessrule.PersonalService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class LoanOptionsService {
 
     public static ResponseLoan getOptions(RequestLoan data){
