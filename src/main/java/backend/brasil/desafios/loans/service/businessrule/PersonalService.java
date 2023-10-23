@@ -1,6 +1,6 @@
 package backend.brasil.desafios.loans.service.businessrule;
 
-public class PersonalService implements LoanService{
+public class PersonalService {
 
     public static boolean requirements(int age, double income, String location){
         /*

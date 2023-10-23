@@ -1,6 +1,6 @@
 package backend.brasil.desafios.loans.service.businessrule;
 
-public class ConsignmentService implements LoanService{
+public class ConsignmentService {
 
     public static boolean requirements(double income){
         /*

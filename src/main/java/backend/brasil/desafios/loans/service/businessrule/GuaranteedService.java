@@ -1,6 +1,6 @@
 package backend.brasil.desafios.loans.service.businessrule;
 
-public class GuaranteedService implements LoanService{
+public class GuaranteedService {
 
     public static boolean requirements(double income){
         /*
